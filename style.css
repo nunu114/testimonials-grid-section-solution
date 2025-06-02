@@ -23,7 +23,7 @@ html {
 }
 
 body {
-    background-color: var(--grey100);
+    background-color: white;
 }
 
 .main-container {
@@ -96,6 +96,7 @@ img {
 
 .jeanette {
     color: var(--grey500);
+    background-color: white;
 }
 
 .jeanette img {
@@ -113,6 +114,7 @@ img {
 
 .kira {
     color: var(--grey500);
+    background-color: white;
 }
 
 .kira img {
@@ -137,7 +139,7 @@ img {
     .main-container {
         margin: 0 auto;
         display: grid;
-        grid-template-columns: 20% repeat(4, 1fr) 20%;
+        grid-template-columns: 10% repeat(4, 1fr) 10%;
         grid-template-rows: 8rem 1fr 1fr 8rem;
         gap: 2rem;
     }
